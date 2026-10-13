@@ -1,0 +1,37 @@
+node_modules/
+dist/
+release/
+release-*/
+.cache/
+output/
+.playwright-cli/
+.local/
+.env
+.env.*
+!.env.example
+*.log
+.impeccable/
+tools/
+
+# Local credentials and knowledge-library data
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.pem
+*.key
+*.p12
+*.pfx
+cookies.txt
+cookies-*.txt
+settings.json
+data/
+
+# Local delivery history, QA evidence, and unselected brand drafts
+docs/DELIVERY.md
+docs/REQUIREMENTS.zh-CN.txt
+docs/maintenance/
+docs/branding/
+docs/qa/
+docs/*-brief.md
+PRODUCT.md
